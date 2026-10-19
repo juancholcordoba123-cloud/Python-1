@@ -1,0 +1,8 @@
+# 8.4 - factorial(n) con un ciclo
+def factorial(n):
+    resultado = 1
+    for i in range(2, n + 1):
+        resultado *= i
+    return resultado
+
+print(factorial(5))  # 120
